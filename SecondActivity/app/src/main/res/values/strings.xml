@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SecondActivity</string>
+    <string name="message_template">Ingresa tu saludo</string>
+    <string name="number_r_template">N Repeticiones</string>
+    <string name="show_message_label">Mensaje de despedida: </string>
+    <string name="show_number_label">Nº Repeticiones</string>
+    <string name="button_name">Siguiente Pantalla</string>
+    <string name="message_byebye">Adios! Adios! Adios!</string>
+
+
+
+</resources>
