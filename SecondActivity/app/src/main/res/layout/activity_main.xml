@@ -11,6 +11,13 @@
     tools:context="com.example.carlosergio.secondactivity.MainActivity"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Hello"/>
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,7 +47,8 @@
             android:id="@+id/number_r"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/show_number_label" />
+            android:text="@string/show_number_label"
+            />
 
 
         <EditText
@@ -48,7 +56,8 @@
             android:layout_alignRight="@id/number_r"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/number_r_template"/>
+            android:hint="@string/number_r_template"
+            android:inputType="number"/>
 
     </LinearLayout>
 
@@ -57,6 +66,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_name"
-        android:onClick="sendMessage"/>
+        />
 
 </LinearLayout>

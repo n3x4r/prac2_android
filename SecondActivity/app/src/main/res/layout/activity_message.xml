@@ -12,7 +12,14 @@
 
 
     <TextView
+        android:id="@+id/text_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/message_byebye"/>
+        />
+
+    <Button
+        android:layout_below="@id/text_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver pantalla saludo"/>
 </RelativeLayout>
