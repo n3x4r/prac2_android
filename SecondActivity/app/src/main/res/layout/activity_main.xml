@@ -12,10 +12,8 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Hello"/>
+        android:id="@+id/label_act1"
+        style="@style/label_text_act1"/>
 
 
     <LinearLayout
@@ -31,7 +29,7 @@
 
         <EditText
             android:id="@+id/edit_message"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/message_template"/>
 
@@ -54,7 +52,7 @@
         <EditText
             android:id="@+id/edit_repet"
             android:layout_alignRight="@id/number_r"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/number_r_template"
             android:inputType="number"/>
@@ -66,6 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_name"
+        android:layout_gravity="center_horizontal"
         />
 
 </LinearLayout>

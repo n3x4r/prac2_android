@@ -8,4 +8,35 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-</resources>
+    <style name="label_text_act1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/label_text_act1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ColorTextAct1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:text">@string/text_view_default_Act</item>
+
+    </style>
+
+    <style name="label_text_act2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/label_text_act1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ColorTextAct1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+
+
+    </style>
+
+    <style name="button_back_act2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:text">@string/text_boton_default_Act2</item>
+
+    </style>
+
+    </resources>
