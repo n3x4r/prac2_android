@@ -13,7 +13,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private final static int REQUEST_CODE = 0;
-
     private Button mbtnActi;
     private EditText mMessage;
     private EditText mRepet;
@@ -56,8 +55,7 @@ public class MainActivity extends AppCompatActivity {
             textAct = (TextView) findViewById(R.id.label_act1);
             textAct.setText(textAnswer);
         }
-
-        }
+    }
 
 
 }

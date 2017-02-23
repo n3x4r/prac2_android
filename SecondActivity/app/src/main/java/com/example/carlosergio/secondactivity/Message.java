@@ -1,6 +1,5 @@
 package com.example.carlosergio.secondactivity;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -13,8 +12,6 @@ public class Message extends AppCompatActivity {
     private final static String EXTRA_MESSAGE = "com.example.secondapp.MESSAGE";
     private final static String EXTRA_REPET = "com.example.secondapp.REPET";
     private final static String EXTRA_ANSWER = "com.example.secondapp.ANSWER";
-
-    private final static int REQUEST_CODE = 0;
     private String mMessage;
     private String nRept;
     private String mMessageToShow="";
@@ -26,7 +23,7 @@ public class Message extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_message);
 
-        mMessage = getIntent().getStringExtra(EXTRA_MESSAGE);//false porque es el valor antes de que le pasen el verdadero valor
+        mMessage = getIntent().getStringExtra(EXTRA_MESSAGE);
         nRept = getIntent().getStringExtra(EXTRA_REPET);
         mtext = (TextView) findViewById(R.id.label_act2);
         for(int i = 0; i < Integer.parseInt(nRept); i++){
@@ -51,11 +48,13 @@ public class Message extends AppCompatActivity {
         i.putExtra(EXTRA_REPET, text2);
         return i;
     }
+
     public void setTextResult(String text){
         Intent data = new Intent();
         data.putExtra(EXTRA_ANSWER, text);
         setResult(RESULT_OK, data);
     }
+
     public static String wasAnswerShown(Intent result){
         return result.getStringExtra(EXTRA_ANSWER);
     }
