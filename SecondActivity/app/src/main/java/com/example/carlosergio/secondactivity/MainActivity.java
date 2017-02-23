@@ -33,10 +33,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(mMessage.getText().toString().trim().length() == 0){
-                    Toast.makeText(MainActivity.this, "The message is empty", Toast.LENGTH_SHORT).show();
-                }if((mRepet.getText().toString().trim().length() == 0)){
-                    Toast.makeText(MainActivity.this, "The number of repete is empty", Toast.LENGTH_SHORT).show();
+                if(mMessage.getText().toString().trim().length() == 0 || mRepet.getText().toString().trim().length() == 0){
+                    Toast.makeText(MainActivity.this, R.string.toast_for_message, Toast.LENGTH_SHORT).show();
                 }else {
                     Intent i = Message.newIntent(MainActivity.this, mMessage.getText().toString(),mRepet.getText().toString());
                     startActivityForResult(i, REQUEST_CODE);

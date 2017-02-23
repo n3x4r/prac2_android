@@ -3,6 +3,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="label_text_act1">40dp</dimen>
+    <dimen name="label_text_greeting_act1">16dp</dimen>
+    <dimen name="label_text_nr_act1">16dp</dimen>
 
 
 </resources>

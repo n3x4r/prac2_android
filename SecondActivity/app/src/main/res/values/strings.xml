@@ -1,16 +1,13 @@
 <resources>
     <string name="app_name">SecondActivity</string>
-    <string name="message_template">Ingresa tu saludo</string>
-    <string name="number_r_template">N Repeticiones</string>
-    <string name="show_message_label">Mensaje de despedida: </string>
-    <string name="show_number_label">Nº Repeticiones</string>
-    <string name="button_name">Siguiente Pantalla</string>
-    <string name="message_byebye">Adios! Adios! Adios!</string>
+    <string name="message_template">Enter your greeting</string>
+    <string name="number_r_template">N Repetitions</string>
+    <string name="show_message_label">Goodbye message: </string>
+    <string name="show_number_label">Nº Repetitions: </string>
+    <string name="text_button_default_Act1">Next Screen</string>
     <string name="text_view_default_Act">Hello World!!</string>
-    <string name="text_boton_default_Act2">Volver pantalla Saludo</string>
-
-
-
+    <string name="text_button_default_Act2">Back</string>
+    <string name="toast_for_message">There are empty fields</string>
 
 
 </resources>

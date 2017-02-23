@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -35,7 +35,61 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:text">@string/text_boton_default_Act2</item>
+        <item name="android:text">@string/text_button_default_Act2</item>
+        <item name="android:layout_marginTop">20dp</item>
+
+    </style>
+
+    <style name="button_next_act1">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/text_button_default_Act1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">20dp</item>
+
+    </style>
+
+
+    <style name="viewtext_greting">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/show_message_label</item>
+        <item name="android:textSize">@dimen/label_text_greeting_act1</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="viewtext_nrep">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/show_number_label</item>
+        <item name="android:textSize">@dimen/label_text_nr_act1</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    <style name="edit_text_greting">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">@string/message_template</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingLeft">15dp</item>
+
+    </style>
+
+    <style name="edit_text_nrep">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">@string/number_r_template</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:inputType">number</item>
+        <item name="android:paddingLeft">15dp</item>
 
     </style>
 

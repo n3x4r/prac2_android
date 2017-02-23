@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecondActivity</string>
+    <string name="message_template">Ingresa tu saludo</string>
+    <string name="number_r_template">N Repeticiones</string>
+    <string name="show_message_label">Mensaje de despedida: </string>
+    <string name="show_number_label">Nº Repeticiones: </string>
+    <string name="text_button_default_Act1">Siguiente Pantalla</string>
+    <string name="text_view_default_Act">Hola Mundo!!</string>
+    <string name="text_button_default_Act2">Volver</string>
+    <string name="toast_for_message">El saludo esta vacio</string>
+    <string name="toast_for_nrepe">Existen campos vacios</string>
+
+</resources>
